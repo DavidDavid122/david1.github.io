@@ -1,0 +1,26 @@
+button {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-right: 15px;
+    padding: 22px 40px 22px 40px;
+    overflow: hidden;
+    background: #3D3D3D;
+    border: 0;
+    border-radius: 15px;
+    transition: background 0.5s ease-in-out;
+}
+
+button:hover {
+    background: radial-gradient(105.07%
+    105.07% at 17.04% 0%, rgba(0, 186, 226,
+    0.88) 0.67%, rgba(0, 0, 0, 0)100%),
+    radial-gradient(97.83% 97.83% at 77.8%
+    100%, rgba(0, 77, 226, 0.88) 0.67%,
+    rgba(0, 0, 0, 0) 100%);
+}
